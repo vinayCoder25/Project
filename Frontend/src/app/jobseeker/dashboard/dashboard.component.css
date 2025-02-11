@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+  background-color: #1e1e1e; /* Dark background */
+  color: #ffffff; /* White text */
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #2ecc71; /* Green border */
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Button Styles */
+.btn-success {
+  background-color: #2ecc71; /* HackerRank green */
+  border: none;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Badge Styles */
+.badge {
+  font-size: 0.9em;
+  padding: 0.5em 0.75em;
+}
+
+.bg-success {
+  background-color: #2ecc71 !important; /* HackerRank green */
+}
+
+/* Text Styles */
+.text-success {
+  color: #2ecc71 !important; /* HackerRank green */
+}
+
+.text-light {
+  color: #ffffff !important; /* White text */
+}
+
+.text-muted {
+  color: #bdc3c7 !important; /* Light gray for muted text */
+}
+
+/* Alert Styles */
+.alert-dark {
+  background-color: #2c3e50; /* Dark blue-gray */
+  border-color: #2ecc71; /* Green border */
+  color: #ffffff; /* White text */
+}

@@ -1,0 +1,62 @@
+<div class="container mt-5">
+  <h1 class="text-center mb-3 text-primary">Job Recommendations</h1>
+
+  <!-- Job Recommendations (Personalized Jobs) -->
+  <div *ngIf="profileCreated; else profilePrompt">
+    <div class="row">
+      <p class="text-center mb-4 text-muted">These are job opportunities recommended for you based on your profile and preferences.</p>
+
+      <!-- Display job cards for recommendations -->
+      <div *ngFor="let job of jobList" class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card shadow-sm border-0">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="badge bg-success text-white">Recommended</span>
+            </div>
+            <h5 class="card-title text-dark">{{ job.title }}</h5>
+            <h5 class="card-title text-dark">{{ job.title }}</h5>
+            <!-- <h6 class="card-subtitle text-muted">{{ job.company || 'Unknown Company' }}</h6> -->
+            <!-- <p class="card-text"><strong>Experience:</strong> {{ job.experience || 'Not specified' }} years</p> -->
+            <a href="#" class="btn btn-primary w-100">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile Not Created Prompt -->
+  <ng-template #profilePrompt>
+    <div class="alert alert-warning text-center">
+      <p><strong>Complete your profile</strong> to receive personalized job recommendations!</p>
+      <button class="btn btn-primary mt-3" (click)="completeProfile()">Complete Profile</button>
+    </div>
+  </ng-template>
+</div>
+
+<!-- All Available Jobs Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4 text-primary">All Available Jobs</h2>
+  <p class="text-center mb-4 text-muted">Browse through the full list of jobs that are currently open across various industries.</p>
+
+  <div class="row">
+    <!-- Display job cards for all available jobs -->
+    <div *ngFor="let job of jobList" class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card shadow-sm border-0">
+        <div class="card-body">
+          <h5 class="card-title text-dark">{{ job.title }}</h5>
+          <h6 class="card-subtitle text-muted">{{ job.company_name || 'Unknown Company' }}</h6>
+          <p class="card-text"><strong>Experience:</strong> {{ job.experience || 'Not specified' }} years</p>
+          <p class="card-text">
+            <strong>Salary:</strong> 
+            {{ job.salary_range?.min || 0 | currency }} - {{ job.salary_range?.max || 0 | currency }}
+          </p>
+          <p class="card-text">
+            <strong>Skills:</strong>
+            <span *ngFor="let skill of job.skills || []" class="badge bg-secondary me-2 mb-2">{{ skill }}</span>
+          </p>
+          <button class="btn btn-primary w-100" (click)="applyForJob(job._id)">Apply Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

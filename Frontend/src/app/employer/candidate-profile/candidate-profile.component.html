@@ -1,0 +1,91 @@
+<div class="container my-4">
+    <h1 class="text-center mb-4">Candidate Profile</h1>
+  
+    <!-- Job Application Section -->
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5>Job Application</h5>
+      </div>
+      <div class="card-body">
+        <p><strong>Application Date:</strong> {{ profileData.jobApplication?.applicationDate | date:'shortDate' }}</p>
+        
+        <!-- Display Current Status -->
+        <p><strong>Status: </strong> 
+          <span *ngIf="!isStatusEditMode">{{ profileData.jobApplication?.status }}</span>
+          
+          <!-- Show Select Box for Changing Status -->
+          <select *ngIf="isStatusEditMode" class="form-select w-auto" [(ngModel)]="profileData.jobApplication.status">
+            <option value="Applied">Applied</option>
+            <option value="Shortlisted">Short listed</option>
+            <option value="Hired">Hired</option>
+            <option value="Rejected">Rejected</option>
+          </select>
+        </p>
+  
+        <!-- Show Button to Toggle Status Edit -->
+        <div *ngIf="!isStatusEditMode">
+          <button class="btn btn-warning" (click)="toggleEditStatus()">Change Status</button>
+        </div>
+  
+        <!-- Show Submit Button to Update Status -->
+        <div *ngIf="isStatusEditMode">
+          <button class="btn btn-success" (click)="updateStatus(profileData.jobApplication?.status)">Submit Status</button>
+          <button class="btn btn-secondary" (click)="toggleEditStatus()">Cancel</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Candidate Information Section -->
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5>Candidate Information</h5>
+      </div>
+      <div class="card-body">
+        <p><strong>Name:</strong> {{ profileData.candidate?.name }}</p>
+        <p><strong>Email:</strong> {{ profileData.candidate?.email }}</p>
+        
+        <p><strong>Skills:</strong></p>
+        <ul class="list-group mb-3">
+          <li *ngFor="let skill of profileData.candidate?.skills" class="list-group-item">{{ skill }}</li>
+        </ul>
+  
+        <p><strong>Preferences:</strong></p>
+        <ul class="list-group mb-3">
+          <li *ngFor="let location of profileData.candidate?.preferences?.location" class="list-group-item">
+            {{ location }}
+          </li>
+          <li class="list-group-item"><strong>Role:</strong> {{ profileData.candidate?.preferences?.role }}</li>
+        </ul>
+  
+        <p><strong>Work Experience:</strong></p>
+        <p>{{ profileData.candidate?.workExperience?.companyName }} - {{ profileData.candidate?.workExperience?.experience }} years</p>
+  
+        <p><strong>Education:</strong></p>
+        <p>{{ profileData.candidate?.education?.degree }} (Graduated: {{ profileData.candidate?.education?.year }})</p>
+      </div>
+    </div>
+  
+    <!-- Job Details Section -->
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5>Job Details</h5>
+      </div>
+      <div class="card-body">
+        <p><strong>Title:</strong> {{ profileData.job?.title }}</p>
+        <p><strong>Company:</strong> {{ profileData.job?.company_name }}</p>
+        <p><strong>Experience Required:</strong> {{ profileData.job?.experience }} years</p>
+        <p><strong>Salary Range:</strong> \${{ profileData.job?.salary_range?.min }} - \${{ profileData.job?.salary_range?.max }}</p>
+        
+        <p><strong>Skills Required:</strong></p>
+        <ul class="list-group">
+          <li *ngFor="let skill of profileData.job?.skills" class="list-group-item">{{ skill }}</li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Contact Candidate Button -->
+    <div class="text-center">
+      <button class="btn btn-primary" (click)="contactCandidate()">Contact Candidate</button>
+    </div>
+  </div>
+  

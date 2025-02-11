@@ -1,0 +1,104 @@
+/* Applied Jobs Container */
+.applied-jobs-container {
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Heading Styles */
+  h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: #f44336;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Applied Jobs List */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Job Item Styling */
+  .job-item {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Job Title */
+  .job-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  /* Job Status */
+  .job-item p.status {
+    font-size: 16px;
+    font-weight: 500;
+    color: #28a745; /* Green color for 'Applied' */
+  }
+  
+  /* Applied On Date */
+  .job-item p.applied-on {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* No Jobs Applied (Empty State) */
+  .no-jobs-message {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    padding: 50px 0;
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .applied-jobs-container {
+      padding: 15px;
+    }
+  
+    .job-item {
+      padding: 15px;
+    }
+  
+    .job-item h3 {
+      font-size: 18px;
+    }
+  
+    .job-item p {
+      font-size: 14px;
+    }
+  }
+  

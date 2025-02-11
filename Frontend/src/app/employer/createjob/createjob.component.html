@@ -1,0 +1,36 @@
+<div class="container mt-4">
+    <h2>Create a New Job</h2>
+
+    <form [formGroup]="jobForm" (ngSubmit)="submitJob()">
+        <div class="mb-3">
+            <label for="title" class="form-label">Job Title</label>
+            <input type="text" id="title" class="form-control" formControlName="title">
+            <small *ngIf="jobForm.get('title')?.invalid && jobForm.get('title')?.touched" class="text-danger">
+
+
+                Job Title is required.
+            </small>
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Job Description</label>
+            <textarea id="description" class="form-control" formControlName="description"></textarea>
+            <small *ngIf="jobForm.get('description')?.invalid && jobForm.get('description')?.touched" class="text-danger">
+                Description is required.
+            </small>
+        </div>
+
+        <div class="mb-3">
+            <label for="skills" class="form-label">Required Skills</label>
+            <input type="text" id="skills" class="form-control" formControlName="skills">
+        </div>
+
+        <div class="mb-3">
+            <label for="salary" class="form-label">Salary (in USD)</label>
+            <input type="number" id="salary" class="form-control" formControlName="salary">
+        </div>
+
+        <button type="submit" class="btn btn-primary" [disabled]="jobForm.invalid">Post Job</button>
+    </form>
+</div>
+<h1>working</h1>

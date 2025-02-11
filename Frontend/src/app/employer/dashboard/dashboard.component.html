@@ -1,0 +1,75 @@
+<div class="container-fluid">
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <i class="bi bi-person-fill"></i>
+        <strong>New Candidates!</strong> We have candidates with matching skills.
+      
+        <!-- Button to open the candidates list -->
+        <button class="btn btn-primary no-hover-click-effect" type="button" (click)="toggleCandidatesList()">
+          View Candidates
+        </button>
+      
+        <!-- Div to show candidate list (Initially hidden) -->
+        <div *ngIf="candidatesVisible" class="candidates-list" style="position: absolute; background-color: white; border: 1px solid #ccc; border-radius: 5px; padding: 10px; width: 300px; top: 58px;left:144px; z-index: 10;">
+          <div *ngFor="let candidate of candidates" class="candidate-item">
+            <div class="d-flex justify-content-between">
+              <div>
+                <strong>{{ candidate.name }}</strong><br>
+                Skills: {{ candidate.skills }}<br>
+                Job: {{ candidate.jobTitle }}
+              </div>
+      
+              <div>
+                <button class="btn btn-sm btn-info" style="font-size: 12px;" (click)="viewCandidateDetails(candidate)">
+                  View Candidate
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+    
+
+    <div>
+        <div>
+            <p class="display-6">Hello, Employer</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-size: 30px;">2</h4>
+                        <p class="card-text">Applicants</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-size: 30px;">3</h4>
+                        <p class="card-text">Jobs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <button class="btn" routerLink="/create-job" ><span style="font-size: 24px;">+</span> Create New Job</button>
+            </div>
+        </div>
+
+        <!-- Dropdown to display candidate and job info -->
+
+    </div>
+</div>

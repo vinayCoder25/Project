@@ -1,0 +1,92 @@
+<div class="container">
+  <form [formGroup]="candidateForm" (ngSubmit)="onSubmit()" class="form-horizontal">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+        <!-- Name Field -->
+        <div class="form-group mb-4">
+          <label for="name" class="text-success">Name</label>
+          <input
+            id="name"
+            formControlName="name"
+            class="form-control bg-dark text-light border-success"
+            placeholder="Enter your name"
+          />
+          <div *ngIf="candidateForm.get('name')?.touched && candidateForm.get('name')?.invalid" class="text-danger mt-1">
+            Name is required.
+          </div>
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-group mb-4">
+          <label for="email" class="text-success">Email</label>
+          <input
+            id="email"
+            formControlName="email"
+            class="form-control bg-dark text-light border-success"
+            placeholder="Enter your email"
+          />
+          <div *ngIf="candidateForm.get('email')?.touched && candidateForm.get('email')?.invalid" class="text-danger mt-1">
+            Please enter a valid email.
+          </div>
+        </div>
+
+        <!-- Skills Field -->
+        <div class="form-group mb-4">
+          <label for="skills" class="text-success">Skills</label>
+          <div formArrayName="skills">
+            <div *ngFor="let skill of skills.controls; let i = index" [formGroupName]="i">
+              <div class="d-flex align-items-center mb-2">
+                <input
+                  [formControlName]="i"
+                  class="form-control bg-dark text-light border-success"
+                  placeholder="Enter skill"
+                />
+                <!-- Show the Remove button only if it's not the first skill -->
+                <button
+                  *ngIf="i > 0"
+                  type="button"
+                  class="btn btn-danger ml-2 remove-btn"
+                  (click)="removeSkill(i)"
+                >
+                  <span>-</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Add Skill button -->
+          <div class="d-flex justify-content-between mt-3">
+            <button
+              type="button"
+              class="btn btn-success add-btn"
+              (click)="addSkill()"
+            >
+              <i class="fas fa-plus"></i> Add Skill
+            </button>
+          </div>
+        </div>
+
+        <!-- Resume Upload Field -->
+        <div class="form-group mb-4">
+          <label for="resume" class="text-success">Upload Resume (PDF only):</label>
+          <input
+            type="file"
+            id="resume"
+            class="form-control bg-dark text-light border-success"
+            (change)="onFileChange($event)"
+            accept=".pdf"
+            required
+          />
+          <div class="text-muted mt-1">Please upload a PDF resume.</div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group mt-4 text-center">
+          <button type="submit" class="btn btn-success">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

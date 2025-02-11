@@ -1,0 +1,39 @@
+
+ho{{jobList}}
+<div class="container mt-5">
+  <h1 class="text-center mb-4">All Job Listings</h1>
+  <div *ngIf="jobList && jobList.length > 0; else nojobList">
+      <table class="table table-bordered">
+          <thead>
+              <tr>
+                  <th>Job Title</th>
+                  <th>Company</th>
+                  <th>Experience (Years)</th>
+                  <th>Salary Range</th>
+                  <th>Skills</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let job of jobList">
+                  <td>{{ job.jobDetails?.title || job.title }}</td>
+                  <td>{{ job.jobDetails?.company_name || job.company_name }}</td>
+                  <td>{{ job.jobDetails?.experience || job.experience }}</td>
+                  <td>
+                      {{ job.jobDetails?.salary_range?.min || job.salary_range?.min || 'N/A' | currency }} -
+                      {{ job.jobDetails?.salary_range?.max || job.salary_range?.max || 'N/A' | currency }}
+                  </td>
+                  <td>
+                      <span *ngFor="let skill of (job.jobDetails?.skills || job.skills || [])">
+                          {{ skill }}
+                      </span>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <!-- Template for No jobList -->
+  <ng-template #nojobList>
+      <p class="text-center">No job listings available at the moment.</p>
+  </ng-template>
+</div>

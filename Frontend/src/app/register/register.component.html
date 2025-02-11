@@ -1,0 +1,51 @@
+<div class="container" style="height: 80vh;">
+    <div class="register-container" style="height: 100%;">
+        <div class="card p-4" style="width: 400px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; border:none">
+            <p class="h3 text-center">Register</p>
+            <p *ngIf="errorMessage" class="text-center text-danger">{{ errorMessage }}</p>
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="form-group mt-2">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" formControlName="name" class="form-control">
+                    <p *ngIf="registerForm.controls['name'].errors && registerForm.controls['name'].touched" class="alert alert-danger">
+                        This field is required!
+                    </p>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" formControlName="email" class="form-control">
+                    <p *ngIf="registerForm.controls['email'].errors && registerForm.controls['email'].touched" class="alert alert-danger">
+                        <ng-container *ngIf="registerForm.controls['email'].hasError('required')">This field is required!</ng-container>
+                        <ng-container *ngIf="registerForm.controls['email'].hasError('email')">Please enter a valid email address!</ng-container>
+                    </p>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" formControlName="password">
+                    <p *ngIf="registerForm.controls['password'].errors && registerForm.controls['password'].touched" class="alert alert-danger">
+                        This field is required!
+                    </p>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" formControlName="confirmPassword">
+                    <p *ngIf="registerForm.errors?.['mismatch']" class="alert alert-danger">
+                        Passwords do not match!
+                    </p>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="userType">User Type</label>
+                    <select name="userType" id="userType" class="form-control" formControlName="userType">
+                        <option value="">Select Role</option>
+                        <option value="job_seeker">Job Seeker</option>
+                        <option value="employer">Employer</option>
+                    </select>
+                    <p *ngIf="registerForm.controls['userType'].errors && registerForm.controls['userType'].touched" class="alert alert-danger">
+                        This field is required!
+                    </p>
+                </div>
+                <button class="btn btn-primary mt-3 w-100" style="background-color: #2798c5; border: none;" [disabled]="registerForm.invalid">Register</button>
+            </form>
+        </div>
+    </div>
+</div>

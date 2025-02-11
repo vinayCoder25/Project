@@ -1,0 +1,27 @@
+<div class="applied-jobs-container">
+    <h2>Applied Jobs</h2>
+  
+    <!-- Display error message if there is one -->
+    <!-- <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+   -->
+    <!-- List applied jobs -->
+    <div *ngIf="appliedJobs && appliedJobs.length > 0">
+      <ul>
+        <li *ngFor="let job of appliedJobs">
+          <div class="job-item">
+            <h3>Job Title: {{ job.jobTitle }}</h3>
+            <p>Status: <strong>{{ job.status }}</strong></p>
+            <p>Applied On: <strong>{{ job.appliedOn | date:'short' }}</strong></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Show message if no applied jobs -->
+    <div *ngIf="appliedJobs && appliedJobs.length === 0">
+      <p>No jobs applied yet.</p>
+    </div>
+  </div>
+  
