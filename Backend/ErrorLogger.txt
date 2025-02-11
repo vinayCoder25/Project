@@ -1,0 +1,742 @@
+Mon Feb 03 2025 : TypeError: Cannot destructure property 'email' of 'userDetails' as it is undefined.
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:5:13)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:7:44
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Mon Feb 03 2025 : TypeError: Cannot destructure property 'email' of 'userDetails' as it is undefined.
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:5:13)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:44
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Mon Feb 03 2025 : Error: Failed to connect to user schema
+    at collections.getUserDbModel (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\config\connection.js:20:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:7:23)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Mon Feb 03 2025 : Error: Failed to connect to user schema
+    at collections.getUserDbModel (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\config\connection.js:20:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:7:23)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Mon Feb 03 2025 : Error: Failed to connect to user schema
+    at collections.getUserDbModel (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\config\connection.js:20:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:7:23)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Mon Feb 03 2025 : Error: User already exists
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:12:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Mon Feb 03 2025 : Error: User already exists
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:12:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Mon Feb 03 2025 : ReferenceError: bcrypt is not defined
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:17:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Mon Feb 03 2025 : ReferenceError: User is not defined
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:20:25)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : TypeError: User is not a constructor
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:21:25)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : TypeError: User is not a constructor
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:21:25)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : TypeError: User is not a constructor
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:21:25)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : TypeError: User is not a constructor
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:21:25)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : ReferenceError: savedUser is not defined
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:34:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : Error: User already exists
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:15:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : ValidationError: Users validation failed: email: Cast to string failed for value "{
+  email: 'john@123@gmail.com',
+  password: '$2a$10$f2aL/fFLgi1nwBbRqBmgFuS9YCG1ZixveeSl7fk2X7cSD0Y8bkUK6',
+  role: 'job seeker'
+}" (type Object) at path "email", password: Path `password` is required., role: Path `role` is required.
+    at Document.invalidate (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1485:12)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1137:16)
+    at model.Document (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:129:12)
+    at new model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:4656:15)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2691:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2679:34)
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:28:39)
+Tue Feb 04 2025 : ValidationError: Users validation failed: email: Cast to string failed for value "{
+  email: 'john@123gmail.com',
+  password: '$2a$10$5YeA5q26ZLMtQAFGItreaOniXFebGjFOTQezXdTo/z524LBJHTB0W',
+  role: 'job seeker'
+}" (type Object) at path "email", password: Path `password` is required., role: Path `role` is required.
+    at Document.invalidate (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1485:12)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1137:16)
+    at model.Document (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:129:12)
+    at new model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:4656:15)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2691:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2679:34)
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:28:39)
+Tue Feb 04 2025 : ValidationError: Users validation failed: email: Cast to string failed for value "{
+  email: 'john123@gmail.com',
+  password: '$2a$10$oPkjk.GjK36Zfl8c3rRvaO1lOn3T7/vEKmxNAlqHcmQKG75eaL8rO',
+  role: 'job seeker'
+}" (type Object) at path "email", password: Path `password` is required., role: Path `role` is required.
+    at Document.invalidate (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1485:12)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1137:16)
+    at model.Document (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:129:12)
+    at new model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:4656:15)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2691:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2679:34)
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:28:39)
+Tue Feb 04 2025 : ValidationError: Users validation failed: email: Cast to string failed for value "{
+  email: 'john123@gmail.com',
+  password: '$2a$10$WDjloRRlfpuaMY2kTtn1aeAlaFWPfjm6B2D4XRCYmLghMFfsRVwoq',
+  role: 'job seeker'
+}" (type Object) at path "email", password: Path `password` is required., role: Path `role` is required.
+    at Document.invalidate (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1485:12)
+    at model.$set (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:1137:16)
+    at model.Document (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:129:12)
+    at new model (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:4656:15)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2691:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\model.js:2679:34)
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:28:39)
+Tue Feb 04 2025 : ReferenceError: savedUser is not defined
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:34:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : Error: User already exists
+    at authServiceModel.registerUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:15:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 04 2025 : TypeError: User.findOne is not a function
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:52:33)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:44
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Tue Feb 04 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Thu Feb 06 2025 : ReferenceError: mongoose is not defined
+    at candidateModel.getJobRecommendations (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:6:20)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:10:49
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:421:3)
+Thu Feb 06 2025 : TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at candidateModel.getJobRecommendations (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:7:35)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:10:49
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:421:3)
+Thu Feb 06 2025 : Error: Failed to connect to user schema
+    at collections.getCandidateDbModel (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\config\connection.js:28:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async candidateModel.getJobRecommendations (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:8:23)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:10:26
+Thu Feb 06 2025 : ReferenceError: modell is not defined
+    at candidateModel.getJobRecommendations (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:19:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:10:26
+Thu Feb 06 2025 : TypeError: model.db.collection(...).findOne(...).toArray is not a function
+    at candidateModel.getJobRecommendations (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:11:91)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:10:26
+Thu Feb 06 2025 : TypeError: conn.getJobDbModel is not a function
+    at candidateModel.getJobRecommendations (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:11:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:10:26
+Thu Feb 06 2025 : ReferenceError: data is not defined
+    at candidateModel.getJobRecommendations (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:10:26
+Fri Feb 07 2025 : RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: Added successfully
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\response.js:278:15)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:9:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Feb 07 2025 : TypeError: conn.getNotificationDbModel is not a function
+    at employerModel.addJob (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:22:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:7:26
+Sat Feb 08 2025 : ValidationError: Users validation failed: role: `jobseeker` is not a valid enum value for path `role`.
+    at Document.invalidate (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Sat Feb 08 2025 : Error: ObjectId is not defined
+    at candidateModel.submitJobApplication (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:132:11)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:34:49
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Sat Feb 08 2025 : Error: Assignment to constant variable.
+    at candidateModel.submitJobApplication (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:134:11)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:34:49
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Sat Feb 08 2025 : Error: Cannot read properties of undefined (reading 'collection')
+    at candidateModel.submitJobApplication (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:134:11)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:34:49
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Sat Feb 08 2025 : Error: Cannot read properties of undefined (reading 'collection')
+    at candidateModel.submitJobApplication (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:134:11)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:34:49
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Sat Feb 08 2025 : Error: Cannot read properties of undefined (reading 'collection')
+    at candidateModel.submitJobApplication (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:136:11)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:34:49
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:175:3)
+Sat Feb 08 2025 : Error: conn.getJobDBModel is not a function
+    at candidateModel.getAppliedJobs (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:168:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:51:26
+Sat Feb 08 2025 : ReferenceError: Cannot access 'employerId' before initialization
+    at employerModel.getAllAppliedJobsCandidateDetails (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:97:60)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:29:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : TypeError: Cannot read properties of undefined (reading '_id')
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:159:44
+    at Array.map (<anonymous>)
+    at employerModel.getAllAppliedJobsCandidateDetails (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:142:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:29:26
+Sun Feb 09 2025 : TypeError: Cannot read properties of undefined (reading '_id')
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:161:44
+    at Array.map (<anonymous>)
+    at employerModel.getAllAppliedJobsCandidateDetails (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:144:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:29:26
+Sun Feb 09 2025 : TypeError: Cannot read properties of undefined (reading '_id')
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:161:44
+    at Array.map (<anonymous>)
+    at employerModel.getAllAppliedJobsCandidateDetails (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:144:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:29:26
+Sun Feb 09 2025 : SyntaxError: Unexpected token ''', ..."skills": [''],
+    "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Sun Feb 09 2025 : Error: Invalid candidateId format
+    at employerModel.convertToObjectId (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:8:15)
+    at employerModel.getAllAppliedJobsCandidateDetails (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:101:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:40:26
+Sun Feb 09 2025 : TypeError: this.convertToObjectId is not a function
+    at employerModel.getCandidateApplicationDetail (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:205:24)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:40:48
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:421:3)
+Sun Feb 09 2025 : Error: Invalid candidateId format
+    at employerModel.convertToObjectId (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:8:15)
+    at employerModel.getCandidateApplicationDetail (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:205:33)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:40:48
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:376:14)
+Sun Feb 09 2025 : TypeError: jobApplicationModel.db.collection(...).findOne(...).toArray is not a function
+    at employerModel.getCandidateApplicationDetail (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:207:109)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:40:26
+Sun Feb 09 2025 : Error: Invalid candidateId format
+    at employerModel.convertToObjectId (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:8:15)
+    at employerModel.updateApplicationStatus (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\employerService.js:235:37)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\employerRoutes.js:51:48
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\node_modules\express\lib\router\index.js:376:14)
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:55:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Sun Feb 09 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\authService.js:61:19)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\authRoutes.js:19:26
+Mon Feb 10 2025 : ReferenceError: Job is not defined
+    at candidateModel.createProfile (C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\services\candidateService.js:47:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\HP\OneDrive\Desktop\Jobnest\Backend\src\routes\candidateRoutes.js:49:26
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : TypeError: conn.find is not a function
+    at authServiceModel.registerUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:15:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:9:26
+Tue Feb 11 2025 : TypeError: conn.find is not a function
+    at authServiceModel.registerUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:15:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:9:26
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ReferenceError: hashedPassword is not defined
+    at authServiceModel.registerUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:40:23)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:9:26
+Tue Feb 11 2025 : ReferenceError: hashedPassword is not defined
+    at authServiceModel.registerUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:40:23)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 11 2025 : ReferenceError: hashedPassword is not defined
+    at authServiceModel.registerUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:40:23)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : SyntaxError: Unexpected token ''', "'{email:te"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+Tue Feb 11 2025 : SyntaxError: Unexpected token ''', "'{email:te"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+Tue Feb 11 2025 : Error: Email already exists
+    at authServiceModel.registerUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:22:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:8:26
+Tue Feb 11 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:102:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:19:26
+Tue Feb 11 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:108:19)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:19:26
+Tue Feb 11 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:108:19)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:19:26
+Tue Feb 11 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:108:19)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:19:26
+Tue Feb 11 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:108:19)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:19:26
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Tue Feb 11 2025 : ValidationError: Users validation failed: role: Path `role` is required.
+    at Document.invalidate (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3334:32)
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\document.js:3095:17
+    at C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+Wed Feb 12 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:104:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:21:26
+Wed Feb 12 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:104:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:21:26
+Wed Feb 12 2025 : Error: Invalid credentials
+    at authServiceModel.loginUser (C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\services\authService.js:110:19)
+    at async C:\Users\Vinay\Desktop\jobPortalApp-master\Backend\src\routes\authRoutes.js:21:26
